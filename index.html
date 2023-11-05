@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Temprature Converter
+        </title>
+        <link rel = "stylesheet" href = "Temp_Converter.css" type = "text/css">
+    </head>
+    <body>
+        <div class = "center">
+            <h1>TEMPERATURE CONVERTER</h1>
+            <div class = "parent">
+                <div class ="child1 child">
+                    <p> Value </p>     
+                    <input type = number name = degree class="userInp" >
+                </div><!--child1-->
+                <div class = "child2 child">
+                    <p> From </p>
+                    <select class="select1">
+                        <option class="frnht"> fahrenheit </option>
+                        <option class="kelvin"> kelvin </option>
+                        <option class="celsious">celsious</option>
+                    </select>
+                    
+                </div><!--child2-->
+                <div class = "child3 child">
+                    <p> To</p>
+                    <select class="select2">
+                        <option class="celsious"> celsious </option>
+                        <option class="frnht"> fahrenheit </option>
+                        <option class="kelvin"> kelvin</option>
+                    </select>
+                </div>
+            </div><!--parent-->
+            <div class = "text">
+                <div class="result">
+                    
+                </div>
+                <button class = "text2 convert">CONVERT</button>
+                <button class = "text2 reset">RESET</button>
+            </div>
+        </div><!--center-->
+        <script src="tempk.js"></script>
+    </body>
+</html>
